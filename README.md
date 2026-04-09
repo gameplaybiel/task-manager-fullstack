@@ -103,7 +103,7 @@ Aplicação desenvolvida em Angular 17 para consumo da API.
 
 ## Back End:
 ```bash
-cd backend/TaskManagerAPI
+cd backend/TaskManagerApi
 dotnet run
 ```
 
