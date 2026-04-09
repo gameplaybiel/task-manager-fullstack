@@ -109,7 +109,7 @@ dotnet run
 
 ## Front End:
 ```bash
-cd front/task-manager-frontend
+cd frontend/task-manager-frontend
 npm start
 ```
 
