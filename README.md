@@ -25,11 +25,11 @@ Aplicação web para cadastro e gerenciamento de tarefas, desenvolvida para o de
 ### Endpoints da API no back-end
 | Método | Rota | Descrição |
 |--------|------|-----------|
-| GET | /api/Tarefa | Listar todas as tarefas |
-| GET | /api/Tarefa/{id} | Buscar tarefa por ID |
-| POST | /api/Tarefa | Criar nova tarefa |
-| PUT | /api/Tarefa/{id} | Atualizar tarefa |
-| DELETE | /api/Tarefa/{id} | Excluir tarefa |
+| GET | /tarefa | Listar todas as tarefas |
+| GET | /tarefa/{id} | Buscar tarefa por ID |
+| POST | /tarefa | Criar nova tarefa |
+| PUT | /tarefa/{id} | Atualizar tarefa |
+| DELETE | /tarefa/{id} | Excluir tarefa |
 
 ## Exemplo de requisição da API:
 ```json
