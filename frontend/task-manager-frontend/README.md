@@ -1,27 +1,92 @@
-# TaskManagerFrontend
+# Task Manager — Front-end
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Interface web desenvolvida em **Angular 17 + Angular Material** para consumo da API de gerenciamento de tarefas, desenvolvida como parte do desafio técnico do Bootcamp Protagonize Tech Avanade.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias
 
-## Code scaffolding
+- [Angular 17](https://angular.io/)
+- [Angular Material UI](https://material.angular.io/)
+- TypeScript
+- HTML5 / CSS3
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## ✅ Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Listagem de todas as tarefas
+- Criação de nova tarefa
+- Edição de tarefa existente
+- Exclusão de tarefa
+- Exibição de status: **Pendente** / **Concluída**
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ⚙️ Pré-requisitos
 
-## Running end-to-end tests
+- [Node.js](https://nodejs.org/) v18 ou superior
+- [npm](https://www.npmjs.com/) v9 ou superior
+- Angular CLI: `npm install -g @angular/cli`
+- API do back-end rodando localmente (veja instruções no README raiz)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🔧 Configuração
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Por padrão, a aplicação aponta para a API em:
+
+```
+http://localhost:5000
+```
+
+Se necessário, altere a URL base no arquivo:
+
+```
+src/environments/environment.ts
+```
+
+---
+
+## ▶️ Como rodar
+
+```bash
+# Acesse a pasta do front-end
+cd frontend/task-manager-frontend
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
+```
+
+Acesse em: [http://localhost:4200](http://localhost:4200)
+
+---
+
+## 📁 Estrutura de pastas
+
+```
+src/
+├── app/
+│   ├── components/     # Componentes da interface
+│   ├── services/       # Serviços de comunicação com a API
+│   ├── models/         # Interfaces e tipos TypeScript
+│   └── app.module.ts
+├── environments/       # Configurações de ambiente
+└── index.html
+```
+
+---
+
+## 🖼️ Demonstração
+
+![Demonstração do Front-end](../../img/demonstracao-Front.png)
+
+---
+
+## Autor
+
+**Gabriel Conceição**  
+Desafio Técnico — Bootcamp Protagonize Tech Avanade

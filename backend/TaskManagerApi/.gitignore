@@ -1,0 +1,36 @@
+## .NET / C# — .gitignore
+
+# Pastas de build (NUNCA versionar)
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de configuração local (dados sensíveis)
+appsettings.Development.json
+appsettings.Local.json
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Logs
+*.log
+logs/
+
+# Pacotes NuGet restaurados automaticamente
+*.nupkg
+.nuget/
+
+# Publicação
+publish/
+out/
+
+# Cobertura de testes
+TestResults/
+coverage/

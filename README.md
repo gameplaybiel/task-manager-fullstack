@@ -44,32 +44,32 @@ Aplicação web para cadastro e gerenciamento de tarefas, desenvolvida para o de
 ```json
 [
     {
-        id: 3,
-        titulo: "Testando API",
-        descricao: "API funcionando corretamente",
-        status: "Pendente",
-        dataCriacao: "2026-04-09T13:27:19.6037987"
+        "id": 3,
+        "titulo": "Testando API",
+        "descricao": "API funcionando corretamente",
+        "status": "Pendente",
+        "dataCriacao": "2026-04-09T13:27:19.6037987"
     },
     {
-        id: 4,
-        titulo: "Estudar Angular",
-        descricao: "Explorando os conceitos de framework Angular",
-        status: "Concluida",
-        dataCriacao: "2026-04-09T14:04:50.1105823"
+        "id": 4,
+        "titulo": "Estudar Angular",
+        "descricao": "Explorando os conceitos de framework Angular",
+        "status": "Concluida",
+        "dataCriacao": "2026-04-09T14:04:50.1105823"
     },
     {
-        id: 5,
-        titulo: "Estudando back-end",
-        descricao: "Explorando os conceitos de back-end",
-        status: "Pendente",
-        dataCriacao: "2026-04-09T19:42:25.8632915"
+        "id": 5,
+        "titulo": "Estudando back-end",
+        "descricao": "Explorando os conceitos de back-end",
+        "status": "Pendente",
+        "dataCriacao": "2026-04-09T19:42:25.8632915"
     },
     {
-        id: 6,
-        titulo: "Explorando a linguagem de programação C#",
-        descricao: "Estudando do básico ao avançado",
-        status: "Concluida",
-        dataCriacao: "2026-04-09T19:43:24.7642239"
+        "id": 6,
+        "titulo": "Explorando a linguagem de programação C#",
+        "descricao": "Estudando do básico ao avançado",
+        "status": "Concluida",
+        "dataCriacao": "2026-04-09T19:43:24.7642239"
     }
 ]
 ```
@@ -99,19 +99,30 @@ Aplicação desenvolvida em Angular 17 para consumo da API.
 ## Demonstração do Projeto no front-end:
 ![Demonstracao do Front-end](img/demonstracao-Front.png)
 
-### Como rodar o projeto
+---
 
-## Back End:
+## Configuração do banco de dados
+ 
+1. Certifique-se de ter o **SQL Server** rodando localmente.
+2. No back-end, copie o arquivo de exemplo e ajuste com suas credenciais:
 ```bash
 cd backend/TaskManagerApi
 dotnet run
 ```
-
-## Front End:
+ 
+API disponível em: `http://localhost:5000`  
+Swagger em: `http://localhost:5000/swagger`
+ 
+### Front-end
+ 
 ```bash
 cd frontend/task-manager-frontend
 npm start
 ```
+ 
+Aplicação disponível em: `http://localhost:4200`
+ 
+---
 
 ## Autor
 Gabriel Conceição
