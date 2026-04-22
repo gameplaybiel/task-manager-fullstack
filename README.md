@@ -110,7 +110,7 @@ cd backend/TaskManagerApi
 dotnet run
 ```
  
-API disponível em: `http://localhost:5000`  
+API disponível em: `http://localhost:5000/tarefa`  
 Swagger em: `http://localhost:5000/swagger`
  
 ### Front-end
